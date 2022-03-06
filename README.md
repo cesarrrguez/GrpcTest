@@ -8,6 +8,18 @@ _Remote Procedure Call (RPC)_ test using _gRPC_ framework.
 
 - .Net
 
+## Usage
+
+Run service and client applications:
+
+```console
+dotnet run --project src/GrpcService/GrpcService.csproj
+```
+
+```console
+dotnet run --project src/GrpcClient/GrpcClient.csproj
+```
+
 ## License
 
 The MIT License (MIT). Please see [License](LICENSE) for more information.
